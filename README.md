@@ -10,7 +10,7 @@ Plain HTML, CSS and a little JavaScript. No build step: edit a file, commit, and
 | Home page (profile, employment, awards, grants) | `index.html` |
 | Research text and figures | `research.html` |
 | Team members and project students | `group.html` |
-| Publication list | `publications.html` |
+| Publication list | Updated automatically from NASA ADS (see below) |
 | Courses | `teaching.html` |
 | Talks | `talks.html` |
 | Openings | `opportunities.html` |
@@ -19,9 +19,16 @@ Plain HTML, CSS and a little JavaScript. No build step: edit a file, commit, and
 | Colours, fonts, spacing | `assets/css/style.css` (the `:root` block at the top) |
 | Menu and footer | Repeated at the top and bottom of every `.html` file |
 
-### Add a publication
-In `publications.html`, copy one `<article class="pub" ...>` block, paste it at the top of the right
-year, and edit the title, authors, journal and `data-year`. Update the total in the `stats` block.
+### Publications (updated automatically from NASA ADS)
+The publications page reads `assets/data/publications.json`. A scheduled job
+(`.github/workflows/update-publications.yml`) rebuilds that file every day from the NASA ADS library
+set in `scripts/update_publications.py`. To add a paper, add it to that ADS library; the site follows
+within a day. To refresh at once: **Actions → Update publications from NASA ADS → Run workflow**.
+
+The job needs an ADS API token, stored as a repository secret named `ADS_TOKEN`
+(**Settings → Secrets and variables → Actions → New repository secret**). The token is on the ADS
+account page under **Settings → API Token**. Until the secret is set, or if the job fails, the page
+shows the list written into `publications.html`.
 
 ### Add a gallery photo
 Put a large version (`photo-31.jpg`) and a small version (`thumb-31.jpg`, about 640 px wide) in

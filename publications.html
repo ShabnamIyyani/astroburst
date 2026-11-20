@@ -48,14 +48,17 @@
     <section>
       <div class="wrap">
         <div class="stats">
-          <div class="stat"><b>38</b><span>Total publications</span></div>
-          <div class="stat"><b>2012&ndash;2026</b><span>Year span</span></div>
+          <div class="stat"><b id="pub-total">38</b><span>Total publications</span></div>
+          <div class="stat"><b id="pub-span">2012&ndash;2026</b><span>Year span</span></div>
         </div>
         <div class="controls">
           <button class="chip on" data-filter="all">All</button>
           <button class="chip" data-filter="recent">Last 3 years</button>
           <input id="pub-search" type="search" placeholder="Search title, author or journal" aria-label="Search publications">
         </div>
+        <!-- The list below is replaced automatically by assets/data/publications.json (refreshed daily
+             from NASA ADS). It stays as the fallback if that file is missing. -->
+        <div id="pub-list">
         <div class="year-group">
           <h2>2026</h2>
           <div>
@@ -321,7 +324,8 @@
           </article>
           </div>
         </div>
-        <p class="muted" style="margin-top:3rem">Data: <a href="https://scixplorer.org/user/libraries/IPbBWFnXRaKhhTSudbHf0Q" target="_blank" rel="noopener">NASA ADS / SciX Library</a> &middot; Refereed journals only. Each title links to its NASA ADS record.</p>
+        </div>
+        <p class="muted" style="margin-top:3rem">Data: <a href="https://scixplorer.org/user/libraries/IPbBWFnXRaKhhTSudbHf0Q" target="_blank" rel="noopener">NASA ADS / SciX Library</a> &middot; Each title links to its NASA ADS record. <span id="pub-updated"></span></p>
       </div>
     </section>
   </main>
