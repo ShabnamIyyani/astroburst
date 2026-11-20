@@ -1,0 +1,563 @@
+{
+ "updated": "2026-11-20",
+ "publications": [
+  {
+   "t": "Epeak-α Correlation in Time Resolved GRB Spectra: A Bottom-up Approach with Optically Thin Inverse Compton Scattering Model",
+   "a": [
+    "Bordoloi, P.P.",
+    "Shivkumar, A.",
+    "Iyyani, S."
+   ],
+   "y": "2026",
+   "j": "The Astrophysical Journal",
+   "v": "1010",
+   "p": "198",
+   "b": "2026ApJ..1010..198B"
+  },
+  {
+   "t": "From Empirical to Physical Model: Direct Fits of Optically Thin Inverse Compton Scattering to Prompt GRB Spectra",
+   "a": [
+    "Bordoloi, P.P.",
+    "Mittal, S.",
+    "Iyyani, S."
+   ],
+   "y": "2026",
+   "j": "The Astrophysical Journal",
+   "v": "1003",
+   "p": "58",
+   "b": "2026ApJ..1003...58B"
+  },
+  {
+   "t": "Episode-wise spectropolarimetry of GRB 220107A: Testing the hypothesis of evolving radiation mechanisms",
+   "a": [
+    "Gupta, R.",
+    "Sonawane, R.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2026",
+   "j": "Astronomy and Astrophysics",
+   "v": "709",
+   "p": "A222",
+   "b": "2026A&A...709A.222G"
+  },
+  {
+   "t": "Multivariate time series classification of Fermi-detected gamma-ray transients using convolutional-recurrent neural networks",
+   "a": [
+    "Aryam John, A.",
+    "Govind Shete, K.",
+    "Iyyani, S.",
+    "Bej, S."
+   ],
+   "y": "2026",
+   "j": "Machine Learning: Science and Technology",
+   "v": "7",
+   "p": "025046",
+   "b": "2026MLS&T...7b5046A"
+  },
+  {
+   "t": "Fastest or Significant: A Systematic Framework for Validating Global Minimum Variability Timescale Measurements of Gamma-Ray Bursts",
+   "a": [
+    "Bala, S.",
+    "Veres, P.",
+    "Goldstein, A.",
+    "Sonawane, R.",
+    "Samanta, R.",
+    "Iyyani, S."
+   ],
+   "y": "2026",
+   "j": "The Astrophysical Journal",
+   "v": "999",
+   "p": "51",
+   "b": "2026ApJ...999...51B"
+  },
+  {
+   "t": "Extremely Luminous Optical Afterglow of an Energetic Gamma-Ray Burst GRB 230204B",
+   "a": [
+    "Gupta, R.",
+    "Racusin, J.",
+    "Lipunov, V.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2026",
+   "j": "The Astrophysical Journal",
+   "v": "997",
+   "p": "246",
+   "b": "2026ApJ...997..246G"
+  },
+  {
+   "t": "Identification and Modeling of Optically Thin Inverse Compton Scattering in the Prompt Emission of GRB 131014A",
+   "a": [
+    "Bordoloi, P.P.",
+    "Iyyani, S."
+   ],
+   "y": "2025",
+   "j": "The Astrophysical Journal",
+   "v": "994",
+   "p": "10",
+   "b": "2025ApJ...994...10B"
+  },
+  {
+   "t": "Spectropolarimetry of GRB 180427A: Evidence for Distinct Emission Sites with Varying Polarization",
+   "a": [
+    "Sonawane, R.",
+    "Iyyani, S.",
+    "Gupta, S.",
+    "et al."
+   ],
+   "y": "2025",
+   "j": "The Astrophysical Journal",
+   "v": "990",
+   "p": "215",
+   "b": "2025ApJ...990..215S"
+  },
+  {
+   "t": "Transients and time domain astrophysics",
+   "a": [
+    "Bhalerao, V.",
+    "Misra, K.",
+    "Anupama, G.C.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2025",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "46",
+   "p": "40",
+   "b": "2025JApA...46...40B"
+  },
+  {
+   "t": "Investigating polarization characteristics of GRB 200503A and GRB 201009A",
+   "a": [
+    "Saraogi, D.",
+    "Bala, S.",
+    "Joshi, J.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2025",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "46",
+   "p": "38",
+   "b": "2025JApA...46...38S"
+  },
+  {
+   "t": "Unified Theory of Negative and Positive Spectral Lags in the Gamma-Ray Burst Prompt Phase due to Shear Comptonization from a Structured Jet",
+   "a": [
+    "Vyas, M.K.",
+    "Pe'er, A.",
+    "Iyyani, S."
+   ],
+   "y": "2024",
+   "j": "The Astrophysical Journal Letters",
+   "v": "975",
+   "p": "L29",
+   "b": "2024ApJ...975L..29V"
+  },
+  {
+   "t": "A Detailed Time-resolved and Energy-resolved Spectro-polarimetric Study of Bright Gamma-Ray Bursts Detected by AstroSat CZTI in Its First Year of Operation",
+   "a": [
+    "Gupta, R.",
+    "Pandey, S.B.",
+    "Gupta, S.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2024",
+   "j": "The Astrophysical Journal",
+   "v": "972",
+   "p": "166",
+   "b": "2024ApJ...972..166G"
+  },
+  {
+   "t": "Exploring Gamma-Ray Burst Diversity: Clustering Analysis of the Emission Characteristics of Fermi- and BATSE-detected Gamma-Ray Bursts",
+   "a": [
+    "Mehta, N.",
+    "Iyyani, S."
+   ],
+   "y": "2024",
+   "j": "The Astrophysical Journal",
+   "v": "969",
+   "p": "88",
+   "b": "2024ApJ...969...88M"
+  },
+  {
+   "t": "Science with the Daksha high energy transients mission",
+   "a": [
+    "Bhalerao, V.",
+    "Sawant, D.",
+    "Pai, A.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2024",
+   "j": "Experimental Astronomy",
+   "v": "57",
+   "p": "23",
+   "b": "2024ExA....57...23B"
+  },
+  {
+   "t": "Statistical Analysis of Long GRBs' Prompt Emission and X-Ray Flares: Multivariate Clustering and Correlations",
+   "a": [
+    "Saji, J.",
+    "Iyyani, S.",
+    "Mazde, K."
+   ],
+   "y": "2023",
+   "j": "The Astrophysical Journal Supplement Series",
+   "v": "269",
+   "p": "2",
+   "b": "2023ApJS..269....2S"
+  },
+  {
+   "t": "Recent advances in the study of the prompt emission of gamma-ray bursts",
+   "a": [
+    "Iyyani, S."
+   ],
+   "y": "2022",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "43",
+   "p": "37",
+   "b": "2022JApA...43...37I"
+  },
+  {
+   "t": "Hard X-Ray Polarization Catalog for a Five-year Sample of Gamma-Ray Bursts Using AstroSat CZT Imager",
+   "a": [
+    "Chattopadhyay, T.",
+    "Gupta, S.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2022",
+   "j": "The Astrophysical Journal",
+   "v": "936",
+   "p": "12",
+   "b": "2022ApJ...936...12C"
+  },
+  {
+   "t": "Onset of Particle Acceleration during the Prompt Phase in Gamma-Ray Bursts as Revealed by Synchrotron Emission in GRB 160821A",
+   "a": [
+    "Ryde, F.",
+    "Iyyani, S.",
+    "Ahlgren, B.",
+    "et al."
+   ],
+   "y": "2022",
+   "j": "The Astrophysical Journal Letters",
+   "v": "932",
+   "p": "L15",
+   "b": "2022ApJ...932L..15R"
+  },
+  {
+   "t": "Probing into emission mechanisms of GRB 190530A using time-resolved spectra and polarization studies: synchrotron origin?",
+   "a": [
+    "Gupta, R.",
+    "Gupta, S.",
+    "Chattopadhyay, T.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2022",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "511",
+   "p": "1694",
+   "b": "2022MNRAS.511.1694G"
+  },
+  {
+   "t": "Sub-MeV spectroscopy with AstroSat-CZT imager for gamma ray bursts",
+   "a": [
+    "Chattopadhyay, T.",
+    "Gupta, S.",
+    "Sharma, V.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2021",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "42",
+   "p": "82",
+   "b": "2021JApA...42...82C"
+  },
+  {
+   "t": "Study of the Prompt Emission of Short Gamma-Ray Bursts Using a Multicolor Blackbody: A Clue to the Viewing Angle",
+   "a": [
+    "Iyyani, S.",
+    "Sharma, V."
+   ],
+   "y": "2021",
+   "j": "The Astrophysical Journal Supplement Series",
+   "v": "255",
+   "p": "25",
+   "b": "2021ApJS..255...25I"
+  },
+  {
+   "t": "Discovery and confirmation of the shortest gamma-ray burst from a collapsar",
+   "a": [
+    "Ahumada, T.",
+    "Singer, L.P.",
+    "Anand, S.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2021",
+   "j": "Nature Astronomy",
+   "v": "5",
+   "p": "917",
+   "b": "2021NatAs...5..917A"
+  },
+  {
+   "t": "A machine learning approach for GRB detection in AstroSat CZTI data",
+   "a": [
+    "Abraham, S.",
+    "Mukund, N.",
+    "Vibhute, A.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2021",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "504",
+   "p": "3084",
+   "b": "2021MNRAS.504.3084A"
+  },
+  {
+   "t": "Identifying Black Hole Central Engines in Gamma-Ray Bursts",
+   "a": [
+    "Sharma, V.",
+    "Iyyani, S.",
+    "Bhattacharya, D."
+   ],
+   "y": "2021",
+   "j": "The Astrophysical Journal Letters",
+   "v": "908",
+   "p": "L2",
+   "b": "2021ApJ...908L...2S"
+  },
+  {
+   "t": "Spectropolarimetric analysis of prompt emission of GRB 160325A: jet with evolving environment of internal shocks",
+   "a": [
+    "Sharma, V.",
+    "Iyyani, S.",
+    "Bhattacharya, D.",
+    "Chattopadhyay, T.",
+    "Vadawale, S.V.",
+    "Bhalerao, V.B."
+   ],
+   "y": "2020",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "493",
+   "p": "5218",
+   "b": "2020MNRAS.493.5218S"
+  },
+  {
+   "t": "Time-varying Polarized Gamma-Rays from GRB 160821A: Evidence for Ordered Magnetic Fields",
+   "a": [
+    "Sharma, V.",
+    "Iyyani, S.",
+    "Bhattacharya, D.",
+    "et al."
+   ],
+   "y": "2019",
+   "j": "The Astrophysical Journal Letters",
+   "v": "882",
+   "p": "L10",
+   "b": "2019ApJ...882L..10S"
+  },
+  {
+   "t": "Observations and physics of prompt emission of gamma ray bursts",
+   "a": [
+    "Iyyani, S."
+   ],
+   "y": "2018",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "39",
+   "p": "75",
+   "b": "2018JApA...39...75I"
+  },
+  {
+   "t": "Violation of Synchrotron Line of Death by the Highly Polarized GRB 160802A",
+   "a": [
+    "Chand, V.",
+    "Chattopadhyay, T.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2018",
+   "j": "The Astrophysical Journal",
+   "v": "862",
+   "p": "154",
+   "b": "2018ApJ...862..154C"
+  },
+  {
+   "t": "Surprise in simplicity: an unusual spectral evolution of a single pulse GRB 151006A",
+   "a": [
+    "Basak, R.",
+    "Iyyani, S.",
+    "Chand, V.",
+    "et al."
+   ],
+   "y": "2017",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "472",
+   "p": "891",
+   "b": "2017MNRAS.472..891B"
+  },
+  {
+   "t": "Explosive and Radio-Selected Transients: Transient Astronomy with Square Kilometre Array and its Precursors",
+   "a": [
+    "Chandra, P.",
+    "Anupama, G.C.",
+    "Arun, K.G.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2016",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "37",
+   "p": "30",
+   "b": "2016JApA...37...30C"
+  },
+  {
+   "t": "AstroSat CZT Imager Observations of GRB 151006A: Timing, Spectroscopy, and Polarization Study",
+   "a": [
+    "Rao, A.R.",
+    "Chand, V.",
+    "Hingar, M.K.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2016",
+   "j": "The Astrophysical Journal",
+   "v": "833",
+   "p": "86",
+   "b": "2016ApJ...833...86R"
+  },
+  {
+   "t": "Synchrotron emission in GRBs observed by Fermi: its limitations and the role of the photosphere",
+   "a": [
+    "Iyyani, S.",
+    "Ryde, F.",
+    "Burgess, J.M.",
+    "Pe'er, A.",
+    "Bégué, D."
+   ],
+   "y": "2016",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "456",
+   "p": "2157",
+   "b": "2016MNRAS.456.2157I"
+  },
+  {
+   "t": "Extremely narrow spectrum of GRB110920A: further evidence for localized, subphotospheric dissipation",
+   "a": [
+    "Iyyani, S.",
+    "Ryde, F.",
+    "Ahlgren, B.",
+    "et al."
+   ],
+   "y": "2015",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "450",
+   "p": "1651",
+   "b": "2015MNRAS.450.1651I"
+  },
+  {
+   "t": "Photospheric emission in gamma ray bursts: Analysis and interpretation of observations made by the Fermi gamma ray space telescope",
+   "a": [
+    "Iyyani, S."
+   ],
+   "y": "2015",
+   "j": "Ph.D. Thesis",
+   "v": "",
+   "p": "",
+   "b": "2015PhDT........37I"
+  },
+  {
+   "t": "Transparency Parameters from Relativistically Expanding Outflows",
+   "a": [
+    "Bégué, D.",
+    "Iyyani, S."
+   ],
+   "y": "2014",
+   "j": "The Astrophysical Journal",
+   "v": "792",
+   "p": "42",
+   "b": "2014ApJ...792...42B"
+  },
+  {
+   "t": "An Observed Correlation between Thermal and Non-thermal Emission in Gamma-Ray Bursts",
+   "a": [
+    "Burgess, J.M.",
+    "Preece, R.D.",
+    "Ryde, F.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2014",
+   "j": "The Astrophysical Journal Letters",
+   "v": "784",
+   "p": "L43",
+   "b": "2014ApJ...784L..43B"
+  },
+  {
+   "t": "Time-resolved Analysis of Fermi Gamma-Ray Bursts with Fast- and Slow-cooled Synchrotron Photon Models",
+   "a": [
+    "Burgess, J.M.",
+    "Preece, R.D.",
+    "Connaughton, V.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2014",
+   "j": "The Astrophysical Journal",
+   "v": "784",
+   "p": "17",
+   "b": "2014ApJ...784...17B"
+  },
+  {
+   "t": "The First Pulse of the Extremely Bright GRB 130427A: A Test Lab for Synchrotron Shocks",
+   "a": [
+    "Preece, R.",
+    "Burgess, J.M.",
+    "von Kienlin, A.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2014",
+   "j": "Science",
+   "v": "343",
+   "p": "51",
+   "b": "2014Sci...343...51P"
+  },
+  {
+   "t": "Variable jet properties in GRB 110721A: time resolved observations of the jet photosphere",
+   "a": [
+    "Iyyani, S.",
+    "Ryde, F.",
+    "Axelsson, M.",
+    "et al."
+   ],
+   "y": "2013",
+   "j": "Monthly Notices of the Royal Astronomical Society",
+   "v": "433",
+   "p": "2739",
+   "b": "2013MNRAS.433.2739I"
+  },
+  {
+   "t": "GRB110721A: An Extreme Peak Energy and Signatures of the Photosphere",
+   "a": [
+    "Axelsson, M.",
+    "Baldini, L.",
+    "Barbiellini, G.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2012",
+   "j": "The Astrophysical Journal Letters",
+   "v": "757",
+   "p": "L31",
+   "b": "2012ApJ...757L..31A"
+  }
+ ]
+}
