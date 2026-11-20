@@ -27,17 +27,18 @@
     items.forEach(function (el) { el.classList.add('in'); });
   }
 
-  // Publications: year filter and search.
-  var pubs = document.querySelectorAll('.pub');
-  if (pubs.length) {
+  // Publications: live list from NASA ADS (assets/data/publications.json), year filter and search.
+  var pubList = document.getElementById('pub-list');
+  if (pubList) {
     var search = document.getElementById('pub-search');
     var chips = document.querySelectorAll('.chip');
     var recentOnly = false;
-    var newest = 0;
-    pubs.forEach(function (p) { newest = Math.max(newest, +p.dataset.year); });
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
     function apply() {
       var q = (search.value || '').toLowerCase().trim();
-      document.querySelectorAll('.year-group').forEach(function (g) {
+      var newest = 0;
+      pubList.querySelectorAll('.pub').forEach(function (p) { newest = Math.max(newest, +p.dataset.year); });
+      pubList.querySelectorAll('.year-group').forEach(function (g) {
         var shown = 0;
         g.querySelectorAll('.pub').forEach(function (p) {
           var ok = (!recentOnly || +p.dataset.year > newest - 3) && (!q || p.textContent.toLowerCase().indexOf(q) !== -1);
@@ -46,6 +47,25 @@
         g.hidden = shown === 0;
       });
     }
+    function render(pubs) {
+      var byYear = {};
+      pubs.forEach(function (p) { (byYear[p.y] = byYear[p.y] || []).push(p); });
+      var years = Object.keys(byYear).sort(function (a, b) { return b - a; });
+      pubList.innerHTML = years.map(function (y) {
+        return '<div class="year-group"><h2>' + esc(y) + '</h2><div>' + byYear[y].map(function (p) {
+          var link = p.b ? 'https://ui.adsabs.harvard.edu/abs/' + encodeURIComponent(p.b) + '/abstract'
+                         : 'https://ui.adsabs.harvard.edu/search/q=' + encodeURIComponent('title:"' + p.t + '"');
+          var authors = (p.a || []).map(function (a) { return /^iyyani/i.test(a) ? '<b>' + esc(a) + '</b>' : esc(a); }).join(', ');
+          var ref = esc(p.j || '') + (p.v ? ', ' + esc(p.v) : '') + (p.p ? ', ' + esc(p.p) : '');
+          return '<article class="pub" data-year="' + esc(y) + '">' +
+            '<a class="pub-title" href="' + link + '" target="_blank" rel="noopener">' + esc(p.t) + '</a>' +
+            '<span class="pub-authors">' + authors + '</span>' +
+            '<span class="pub-journal">' + ref + ' (' + esc(y) + ')</span></article>';
+        }).join('') + '</div></div>';
+      }).join('');
+      document.getElementById('pub-total').textContent = pubs.length;
+      document.getElementById('pub-span').textContent = years[years.length - 1] + '\u2013' + years[0];
+    }
     chips.forEach(function (c) {
       c.addEventListener('click', function () {
         chips.forEach(function (x) { x.classList.remove('on'); });
@@ -53,6 +73,14 @@
       });
     });
     search.addEventListener('input', apply);
+    fetch('assets/data/publications.json', { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.publications || !d.publications.length) return;
+        render(d.publications); apply();
+        if (d.updated) document.getElementById('pub-updated').textContent = 'Last updated ' + d.updated + '.';
+      })
+      .catch(function () { /* keep the list already in the page */ });
   }
 
   // Gallery lightbox.
