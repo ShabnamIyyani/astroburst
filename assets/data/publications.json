@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "publications": [
   {
    "t": "Epeak-α Correlation in Time Resolved GRB Spectra: A Bottom-up Approach with Optically Thin Inverse Compton Scattering Model",
@@ -15,19 +15,6 @@
    "b": "2026ApJ..1010..198B"
   },
   {
-   "t": "From Empirical to Physical Model: Direct Fits of Optically Thin Inverse Compton Scattering to Prompt GRB Spectra",
-   "a": [
-    "Bordoloi, P.P.",
-    "Mittal, S.",
-    "Iyyani, S."
-   ],
-   "y": "2026",
-   "j": "The Astrophysical Journal",
-   "v": "1003",
-   "p": "58",
-   "b": "2026ApJ..1003...58B"
-  },
-  {
    "t": "Episode-wise spectropolarimetry of GRB 220107A: Testing the hypothesis of evolving radiation mechanisms",
    "a": [
     "Gupta, R.",
@@ -40,6 +27,19 @@
    "v": "709",
    "p": "A222",
    "b": "2026A&A...709A.222G"
+  },
+  {
+   "t": "From Empirical to Physical Model: Direct Fits of Optically Thin Inverse Compton Scattering to Prompt GRB Spectra",
+   "a": [
+    "Bordoloi, P.P.",
+    "Mittal, S.",
+    "Iyyani, S."
+   ],
+   "y": "2026",
+   "j": "The Astrophysical Journal",
+   "v": "1003",
+   "p": "58",
+   "b": "2026ApJ..1003...58B"
   },
   {
    "t": "Multivariate time series classification of Fermi-detected gamma-ray transients using convolutional-recurrent neural networks",
