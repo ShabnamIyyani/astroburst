@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-25",
  "publications": [
   {
    "t": "Epeak-α Correlation in Time Resolved GRB Spectra: A Bottom-up Approach with Optically Thin Inverse Compton Scattering Model",
@@ -404,21 +404,6 @@
    "b": "2017MNRAS.472..891B"
   },
   {
-   "t": "Explosive and Radio-Selected Transients: Transient Astronomy with Square Kilometre Array and its Precursors",
-   "a": [
-    "Chandra, P.",
-    "Anupama, G.C.",
-    "Arun, K.G.",
-    "Iyyani, S.",
-    "et al."
-   ],
-   "y": "2016",
-   "j": "Journal of Astrophysics and Astronomy",
-   "v": "37",
-   "p": "30",
-   "b": "2016JApA...37...30C"
-  },
-  {
    "t": "AstroSat CZT Imager Observations of GRB 151006A: Timing, Spectroscopy, and Polarization Study",
    "a": [
     "Rao, A.R.",
@@ -432,6 +417,21 @@
    "v": "833",
    "p": "86",
    "b": "2016ApJ...833...86R"
+  },
+  {
+   "t": "Explosive and Radio-Selected Transients: Transient Astronomy with Square Kilometre Array and its Precursors",
+   "a": [
+    "Chandra, P.",
+    "Anupama, G.C.",
+    "Arun, K.G.",
+    "Iyyani, S.",
+    "et al."
+   ],
+   "y": "2016",
+   "j": "Journal of Astrophysics and Astronomy",
+   "v": "37",
+   "p": "30",
+   "b": "2016JApA...37...30C"
   },
   {
    "t": "Synchrotron emission in GRBs observed by Fermi: its limitations and the role of the photosphere",
